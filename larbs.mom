@@ -155,7 +155,7 @@ To type capital letters, hold down the \f(CWShift\fP key\(emthat might sound lik
 .ITEM
 \f(CWMod+R\fP \(en htop (task manager, system monitor that R*dditors use to look cool)
 .ITEM
-\f(CWMod+e\fP \(en neomutt (email) \(en Must be first configured by running \f(CWmw add\fP.
+\f(CWMod+e\fP \(en thunderburd (email) \(en Must be first configured by running \f(CWmw add\fP.
 .ITEM
 \f(CWMod+E\fP \(en abook (contacts, addressbook, emails)
 .ITEM
@@ -165,7 +165,7 @@ To type capital letters, hold down the \f(CWShift\fP key\(emthat might sound lik
 .ITEM
 \f(CWMod+W\fP \(en nmtui (for connecting to wireless internet)
 .ITEM
-\f(CWMod+n\fP \(en vimwiki (for notes)
+\f(CWMod+n\fP \(en obsidian (for notes)
 .ITEM
 \f(CWMod+N\fP \(en newsboat (RSS feed reader)
 .ITEM
