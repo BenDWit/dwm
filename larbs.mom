@@ -185,7 +185,7 @@ There are nine tags, active tags are highlighted in the top left.
 \f(CWMod+(Number)\fP \(en Go to that number tag
 .ITEM
 \f(CWMod+Shift+(Number)\fP \(en Send window to that tag
-.ITEM
+.ITEMa
 \f(CWMod+Tab\fP \(en Go to previous tag (may also use \f(CW\\\fP for Tab)
 .ITEM
 \f(CWMod+g\fP \(en Go to left tag (hold shift to send window there)
