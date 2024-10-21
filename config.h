@@ -166,7 +166,7 @@ static const Key keys[] = {
 	{ MODKEY,			XK_w,          spawn,                  {.v = (const char*[]){ BROWSER, NULL } } },
 	{ MODKEY|ShiftMask,		XK_w,          spawn,                  {.v = (const char*[]){ TERMINAL, "-e", "sudo", "nmtui", NULL } } },
 	{ MODKEY,			XK_e,          spawn,                 {.v = (const char*[]){ "thunderbird", NULL } } },
-	{ MODKEY|ShiftMask,		XK_e,          spawn,                  SHCMD(TERMINAL " -e abook -C ~/.config/abook/abookrc --datafile ~/.config/abook/addressbook") },
+	{ MODKEY|ShiftMask,		XK_e,          spawn,              {.v = (const char*[]){ "vscodium", NULL } } },
 	{ MODKEY,			XK_r,          spawn,                  {.v = (const char*[]){ TERMINAL, "-e", "lfub", NULL } } },
 	{ MODKEY|ShiftMask,		XK_r,          spawn,                  {.v = (const char*[]){ TERMINAL, "-e", "htop", NULL } } },
 	{ MODKEY,			XK_t,          setlayout,              {.v = &layouts[0]} }, /* tile */
@@ -219,8 +219,8 @@ static const Key keys[] = {
 	{ MODKEY,			XK_b,          togglebar,              {0} },
 	/* { MODKEY|ShiftMask,		XK_b,          spawn,                  SHCMD("") }, */
 	{ MODKEY,			XK_n,          spawn,                  {.v = (const char*[]){ "obsidian", NULL } } },
-	{ MODKEY|ShiftMask,		XK_n,          spawn,                  {.v = (const char*[]){"quiterss", NULL} } },
-	{ MODKEY,			XK_m,          spawn,                  {.v = (const char*[]){ TERMINAL, "-e", "ncmpcpp", NULL } } },
+	{ MODKEY|ShiftMask,		XK_n,          spawn,         {.v = (const char*[]){ TERMINAL, "-e", "newsboat", NULL } } },
+	{ MODKEY,			XK_m,          spawn,                  {.v = (const char*[]){ "spotify", NULL } } },
 	{ MODKEY|ShiftMask,		XK_m,          spawn,                  SHCMD("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle; kill -44 $(pidof dwmblocks)") },
 	{ MODKEY,			XK_comma,      spawn,                  {.v = (const char*[]){ "mpc", "prev", NULL } } },
 	{ MODKEY|ShiftMask,		XK_comma,      spawn,                  {.v = (const char*[]){ "mpc", "seek", "0%", NULL } } },
