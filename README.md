@@ -1,4 +1,5 @@
-# Luke's build of dwm
+# ben's build of dwm
+![image](https://github.com/user-attachments/assets/14d3e84d-ba5b-4227-875b-9d812165c18f)
 
 ## FAQ
 
