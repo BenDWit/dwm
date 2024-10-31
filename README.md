@@ -1,5 +1,5 @@
 # ben's build of dwm
-![image](https://github.com/user-attachments/assets/14d3e84d-ba5b-4227-875b-9d812165c18f)
+![image](https://github.com/user-attachments/assets/434686a7-2668-48f0-8e54-dd355f31fea9)
 
 ## FAQ
 
