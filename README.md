@@ -1,11 +1,15 @@
 # ben's build of dwm
+
 ![image](https://github.com/user-attachments/assets/434686a7-2668-48f0-8e54-dd355f31fea9)
+=======
+
+![image](https://github.com/user-attachments/assets/14d3e84d-ba5b-4227-875b-9d812165c18f)
 
 ## FAQ
 
 > What are the bindings?
 
-This is suckless, mmmbud, the source code is the documentation! Check out [config.h](config.h).
+the source code is the documentation! Check out [config.h](config.h).
 
 Okay, okay, actually I keep a readme in `larbs.mom` for my whole system, including the binds here.
 Press <kbd>super+F1</kbd> to view it in dwm (zathura is required for that binding).
@@ -23,7 +27,6 @@ Press <kbd>super+F1</kbd> to view it in dwm (zathura is required for that bindin
 - [shiftview](https://dwm.suckless.org/patches/nextprev/): Cycle through tags (<kbd>super+g/;</kbd>).
 - [vanitygaps](https://dwm.suckless.org/patches/vanitygaps/): Gaps allowed across all layouts.
 - [swallow patch](https://dwm.suckless.org/patches/swallow/): if a program run from a terminal would make it inoperable, it temporarily takes its place to save space.
-
 
 ## Installation for newbs
 
