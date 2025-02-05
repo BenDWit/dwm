@@ -16,11 +16,11 @@ static int swallowfloating    = 0;        /* 1 means swallow floating windows by
 static int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
-static char *fonts[]          = { "dina:size=10", "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true"  };
+static char *fonts[]          = { "cherry:size=10", "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true"  };
 static char normbgcolor[]           = "#282828";
 static char normbordercolor[]       = "#3c3836";
 static char normfgcolor[]           = "#ebdbb2";
-static char selfgcolor[]            = "#928374";
+static char selfgcolor[]            = "#282828";
 static char selbordercolor[]        = "#d3869b";
 static char selbgcolor[]            = "#89b482";
 static char *colors[][3] = {
