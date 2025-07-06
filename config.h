@@ -16,13 +16,24 @@ static int swallowfloating    = 0;        /* 1 means swallow floating windows by
 static int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
-static char *fonts[]          = { "cherry:size=10", "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true"  };
-static char normbgcolor[]           = "#282828";
+static char *fonts[]          = { "dina:size=12", "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true"  };
+/*gruvbox theme
+ static char normbgcolor[]           = "#282828";
 static char normbordercolor[]       = "#3c3836";
 static char normfgcolor[]           = "#ebdbb2";
 static char selfgcolor[]            = "#282828";
 static char selbordercolor[]        = "#d3869b";
 static char selbgcolor[]            = "#89b482";
+*/
+
+/*kanagawa wave */
+static char normbgcolor[]           = "#0d0d0d";
+static char normbordercolor[]       = "#727169";
+static char normfgcolor[]           = "#f7f7f7";
+static char selfgcolor[]            = "#1f1f28";
+static char selbordercolor[]        = "#c34043";
+static char selbgcolor[]            = "#7e9cd8";
+
 static char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
@@ -191,7 +202,7 @@ static const Key keys[] = {
 	{ MODKEY,			XK_a,          togglegaps,             {0} },
 	{ MODKEY|ShiftMask,		XK_a,          defaultgaps,            {0} },
 	{ MODKEY,			XK_s,          togglesticky,           {0} },
-	/* { MODKEY|ShiftMask,		XK_s,          spawn,                  SHCMD("") }, */
+	{ MODKEY|ShiftMask,		XK_s,          spawn,                  SHCMD("flameshot gui") }, 
 	{ MODKEY,			XK_d,          spawn,                  {.v = (const char*[]){ "dmenu_run", NULL } } },
 	{ MODKEY|ShiftMask,		XK_d,          spawn,                  {.v = (const char*[]){ "keepmenu", NULL } } },
 	{ MODKEY,			XK_f,          togglefullscr,          {0} },
